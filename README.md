@@ -6,7 +6,8 @@ Still to do:
 
 2. Look into the scattered delays in the initialization code. These come from the example. Are they needed?
 
-3. I have to do a full hardware reset (hold boot and hit reset) on the device every time before I upload. Would like to fix.
+3. ~~I have to do a full hardware reset (hold boot and hit reset) on the device every time before I upload. Would like to fix.~~
 
-4. I have to do a simple reset on the device (hit reset button) after successfully uploading code so that it will properly start running the code. I would like to fix this as well.
+4. ~~I have to do a simple reset on the device (hit reset button) after successfully uploading code so that it will properly start running the code. I would like to fix this as well.~~
 
+    > Both of the above appear to related to an issue with the current version of platformio's esptool.py and if I use the one I installed with pip it works. I added a custom upload_command in platform.ini to address.
