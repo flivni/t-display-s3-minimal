@@ -12,5 +12,5 @@ Still to do:
 
     ~~> Both of the above appear to related to an issue with the current version of platformio's esptool.py and if I use the one I installed with pip it works. I added a custom upload_command in platform.ini to address.~~
    
-Added a platformio.ini directive to pull a newer version of esptool.py that seems to work as per the above workaround, without altering system-wide Python libs.
+    Added a platformio.ini directive to pull a newer version of esptool.py that seems to work as per the above workaround, without altering system-    wide Python libs.
 
