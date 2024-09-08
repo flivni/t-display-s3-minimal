@@ -11,5 +11,6 @@ Still to do:
 4. ~~I have to do a simple reset on the device (hit reset button) after successfully uploading code so that it will properly start running the code. I would like to fix this as well.~~
 
     ~~> Both of the above appear to related to an issue with the current version of platformio's esptool.py and if I use the one I installed with pip it works. I added a custom upload_command in platform.ini to address.~~
+   
 Added a platformio.ini directive to pull a newer version of esptool.py that seems to work as per the above workaround, without altering system-wide Python libs.
 
